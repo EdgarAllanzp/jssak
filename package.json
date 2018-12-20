@@ -1,0 +1,21 @@
+{
+  "name": "jssak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/jssak.cjs.js",
+  "module": "dist/jssak.esm.js",
+  "browser": "dist/jssak.umd.js",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "pretest": "npm run build",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.68.1"
+  }
+}
