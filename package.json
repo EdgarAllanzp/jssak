@@ -6,6 +6,7 @@
   "module": "dist/jssak.esm.js",
   "browser": "dist/jssak.umd.js",
   "scripts": {
+    "watch": "rollup -c -w",
     "build": "rimraf dist && rollup -c",
     "pretest": "npm run build",
     "test": "mocha"
@@ -14,8 +15,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
     "mocha": "^5.2.0",
     "rimraf": "^2.6.2",
-    "rollup": "^0.68.1"
+    "rollup": "^0.68.1",
+    "rollup-plugin-babel": "^4.1.0"
   }
 }
