@@ -12,6 +12,12 @@
     "pretest": "npm run build",
     "test": "mocha"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm test"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,6 +25,7 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "eslint": "^5.10.0",
+    "husky": "^1.3.0",
     "mocha": "^5.2.0",
     "rimraf": "^2.6.2",
     "rollup": "^0.68.1",
