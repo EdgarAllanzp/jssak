@@ -2,6 +2,10 @@
 <h2 align="center">JavaScript Swiss Army Knife</h2>
 <p align="center">A modern JavaScript utility library aiming to collect popular helpers and learn functional programming.</p>
 
+<p align="center">
+  <a href="https://travis-ci.org/EdgarAllanzp/jssak"><img src="https://travis-ci.org/EdgarAllanzp/jssak.svg?branch=master" /></a>
+</p>
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
