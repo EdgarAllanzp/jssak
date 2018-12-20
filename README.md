@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/jssak-logo.png" alt="jssak" width="300" /></p> 
+<p align="center"><img src="./assets/jssak-logo.png" alt="jssak" width="100" /></p> 
 <h2 align="center">JavaScript Swiss Army Knife</h2>
 <p align="center">A modern JavaScript utility library aiming to collect popular helpers and learn functional programming.</p>
 
