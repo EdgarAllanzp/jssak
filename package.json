@@ -1,7 +1,7 @@
 {
   "name": "jssak",
   "version": "1.0.0",
-  "description": "",
+  "description": "A modern JavaScript utility library aiming to collect popular helpers and learn functional programming.",
   "main": "dist/jssak.cjs.js",
   "module": "dist/jssak.esm.js",
   "browser": "dist/jssak.umd.js",
@@ -18,8 +18,12 @@
       "pre-push": "npm test"
     }
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "utils",
+    "helpers",
+    "functional programming"
+  ],
+  "author": "Peizhao (Edgar) Li",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.2.2",
