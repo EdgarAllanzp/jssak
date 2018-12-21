@@ -13,7 +13,7 @@ cache:
   yarn: true
 
 install:
-  -yarn
+  - yarn
 
 script:
   - yarn test && yarn docs:build
