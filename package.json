@@ -10,13 +10,13 @@
     "docs:build": "vuepress build docs",
     "lint": "eslint src test",
     "build": "rimraf dist && rollup -c",
-    "pretest": "npm run build",
+    "pretest": "yarn build",
     "test": "mocha"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm test"
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn test"
     }
   },
   "keywords": [
