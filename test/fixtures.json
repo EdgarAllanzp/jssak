@@ -49,5 +49,9 @@
     "array": [5, 4, 3, 1, 2],
     "comparator": "descending",
     "expected": false
+  },
+  {
+    "array": ["a", "b", "c", "d", "e"],
+    "expected": true
   }
 ]

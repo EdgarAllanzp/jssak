@@ -7,14 +7,13 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: 'Guide', link: '/guide/'},
+      { text: 'Documentation', link: '/document/'},
       { text: 'Github', link: 'https://github.com/EdgarAllanzp/jssak' },
     ],
     sidebar: {
-      '/guide/': [
+      '/document/': [
         '',
-        'array',
-        'function'
+        // 'array',
       ]
     }
   }
