@@ -6,6 +6,10 @@
   <a href="https://travis-ci.org/EdgarAllanzp/jssak"><img src="https://travis-ci.org/EdgarAllanzp/jssak.svg?branch=master" /></a>
 </p>
 
+## Documentation
+
+For Docs, see: https://edgarallanzp.github.io/jssak/
+
 ## Requirement
 
 requires Node.js >= 8
