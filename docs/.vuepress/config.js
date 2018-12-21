@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/jssak/',
   title: 'JavaScript Swiss Army Knife',
   description: 'A modern JavaScript utility library aiming to collect popular helpers and learn functional programming.',
   head: [
