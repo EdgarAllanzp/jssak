@@ -14,6 +14,14 @@ For Docs, see: https://edgarallanzp.github.io/jssak/
 
 Requires Node.js >= 8
 
+## Running tests
+
+Install dev dependencies:
+
+```sh
+$ yarn && yarn test
+```
+
 ## Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/edgarallanzp/jssak/issues/new).
