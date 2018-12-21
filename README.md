@@ -12,7 +12,11 @@ For Docs, see: https://edgarallanzp.github.io/jssak/
 
 ## Requirement
 
-requires Node.js >= 8
+Requires Node.js >= 8
+
+## Contributing
+
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/edgarallanzp/jssak/issues/new).
 
 ## License
 
