@@ -16,14 +16,4 @@ install:
   - yarn
 
 script:
-  - yarn test && yarn docs:build
-
-deploy:
-  provider: pages
-  skip-cleanup: true
-  gh-token: 6ed69005d9f265fac5a6217018d57cfe191b2f51
-  local-dir: ./docs/.vuepress/dist/
-  target-branch: gh-pages
-  verbose: true
-  on:
-    branch: master
+  - yarn test

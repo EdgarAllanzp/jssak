@@ -8,6 +8,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "deploy": "yarn docs:build && gh-pages -d docs/.vuepress/dist/",
     "lint": "eslint src test",
     "build": "rimraf dist && rollup -c",
     "pretest": "yarn build",
@@ -30,6 +31,7 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "eslint": "^5.10.0",
+    "gh-pages": "^2.0.1",
     "husky": "^1.3.0",
     "mocha": "^5.2.0",
     "rimraf": "^2.6.2",
