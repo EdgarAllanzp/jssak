@@ -6,8 +6,9 @@
   "module": "dist/jssak.esm.js",
   "browser": "dist/jssak.umd.js",
   "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "lint": "eslint src test",
-    "watch": "rollup -c -w",
     "build": "rimraf dist && rollup -c",
     "pretest": "npm run build",
     "test": "mocha"
@@ -33,6 +34,7 @@
     "mocha": "^5.2.0",
     "rimraf": "^2.6.2",
     "rollup": "^0.68.1",
-    "rollup-plugin-babel": "^4.1.0"
+    "rollup-plugin-babel": "^4.1.0",
+    "vuepress": "^0.14.8"
   }
 }

@@ -6,6 +6,10 @@
   <a href="https://travis-ci.org/EdgarAllanzp/jssak"><img src="https://travis-ci.org/EdgarAllanzp/jssak.svg?branch=master" /></a>
 </p>
 
+## Requirement
+
+requires Node.js >= 8
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
