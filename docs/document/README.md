@@ -63,3 +63,31 @@ first(['a', 'b', 'c', 'd', 'e', 'f'], 1);
 first(['a', 'b', 'c', 'd', 'e', 'f'], 3);
 //=> ['a', 'b', 'c']
 ```
+
+### last
+
+```last(array, [num])```
+
+Get the last element or last n elements of an array.
+
+#### Arguments
+
+1. `array` *(Array)*: The array to query.
+2. `num` *(Number)*: The last elements count.
+
+#### Returns
+
+*(\*|Array)*: Returns the last element or last n elements of `array`.
+
+#### Example
+
+``` js
+last(['a', 'b', 'c', 'd', 'e', 'f']);
+//=> 'f'
+
+last(['a', 'b', 'c', 'd', 'e', 'f'], 1);
+//=> 'f'
+
+last(['a', 'b', 'c', 'd', 'e', 'f'], 3);
+//=> ['d', 'e', 'f']
+```

@@ -8,7 +8,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "yarn docs:build && gh-pages -d docs/.vuepress/dist/",
+    "release": "yarn docs:build && gh-pages -d docs/.vuepress/dist/",
     "lint": "eslint src test",
     "build": "rimraf dist && rollup -c",
     "build:watch": "rollup -c -w",

@@ -36,3 +36,21 @@ describe('Array#first', function() {
     assert.equal(sak.first([]), undefined);
   });
 });
+
+describe('Array#last', function() {
+  it('should throw type error when non-Array inputs', function() {
+    assert.throws(sak.last.bind(null, nonArray), 'Expected array.');
+  });
+
+  it('should get the last element of array', function() {
+    assert.equal(sak.last([1, 2, 3, 4, 5], 1), 5);
+  });
+
+  it('should return the last n elements of the array', function() {
+    assert.deepEqual(sak.last([1, 2, 3, 4, 5], 3), [3, 4, 5]);
+  });
+
+  it('should return undefined while array is empty', function() {
+    assert.equal(sak.last([]), undefined);
+  });
+});
