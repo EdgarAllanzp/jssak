@@ -13,8 +13,10 @@
     "build": "rimraf dist && rollup -c",
     "build:watch": "rollup -c -w",
     "pretest": "yarn build",
-    "test": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text mocha test/*.js",
-    "test:watch": "mocha -w"
+    "test": "cross-env NODE_ENV=test mocha test/*.js",
+    "test:watch": "mocha -w",
+    "cover": "cross-env NODE_ENV=test nyc npm test && nyc report --reporter=lcov",
+    "cover:ci": "cross-env NODE_ENV=test nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "husky": {
     "hooks": {
@@ -33,6 +35,7 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "babel-plugin-istanbul": "^5.1.0",
+    "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
     "eslint": "^5.10.0",
     "gh-pages": "^2.0.1",

@@ -16,4 +16,4 @@ install:
   - yarn
 
 script:
-  - yarn test
+  - yarn cover:ci
