@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://travis-ci.org/EdgarAllanzp/jssak"><img src="https://travis-ci.org/EdgarAllanzp/jssak.svg?branch=master" /></a>
+  <a href='https://coveralls.io/github/EdgarAllanzp/jssak?branch=master'><img src='https://coveralls.io/repos/github/EdgarAllanzp/jssak/badge.svg?branch=master' alt='Coverage Status' /></a>
 </p>
 
 ## Documentation
@@ -30,4 +31,4 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2018, [Peizhao (Edgar) Li](https://github.com/EdgarAllanzp)
+Copyright (c) 2018, [Edgar Li](https://github.com/EdgarAllanzp)
