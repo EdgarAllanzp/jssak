@@ -15,8 +15,7 @@
     "pretest": "yarn build",
     "test": "cross-env NODE_ENV=test mocha test/*.js",
     "test:watch": "mocha -w",
-    "cover": "cross-env NODE_ENV=test nyc mocha test/*.js && nyc report --reporter=lcov",
-    "cover:ci": "cross-env NODE_ENV=test nyc npm test && nyc report --reporter=text-lcov | coveralls"
+    "cover": "yarn test && nyc report --reporter=lcov"
   },
   "husky": {
     "hooks": {

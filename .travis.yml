@@ -16,4 +16,7 @@ install:
   - yarn
 
 script:
-  - yarn cover:ci
+  - yarn cover
+
+after_script:
+  - cat coverage/lcov.info | coveralls
