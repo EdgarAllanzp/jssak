@@ -1,5 +1,5 @@
-const sak = require('../');
-const assert = require('assert');
+import sak from '../src/array';
+import assert from 'assert';
 const nonArray = 'foobar';
 
 describe('Array#isSorted', function() {

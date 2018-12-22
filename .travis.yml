@@ -18,4 +18,5 @@ install:
 script:
   - yarn test
 
-after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+after_script:
+  - yarn coveralls
