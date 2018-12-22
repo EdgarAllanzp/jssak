@@ -13,9 +13,8 @@
     "build": "rimraf dist && rollup -c",
     "build:watch": "rollup -c -w",
     "pretest": "yarn build",
-    "test": "cross-env NODE_ENV=test mocha test/*.js",
-    "test:watch": "mocha -w",
-    "cover": "yarn test && nyc report --reporter=lcov"
+    "test": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text mocha test/*.js",
+    "test:watch": "mocha -w"
   },
   "husky": {
     "hooks": {
