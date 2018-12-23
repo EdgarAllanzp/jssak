@@ -1,15 +1,30 @@
 <p align="center"><img src="./assets/jssak-logo.png" alt="jssak" width="100" /></p> 
 <h2 align="center">JavaScript Swiss Army Knife</h2>
-<p align="center">A modern JavaScript utility library aiming to collect popular helpers and learn functional programming.</p>
-
+<p align="center">Slight and elegant functional utils for modern JavaScript.</p>
 <p align="center">
   <a href="https://travis-ci.org/EdgarAllanzp/jssak"><img src="https://travis-ci.org/EdgarAllanzp/jssak.svg?branch=master" /></a>
   <a href='https://coveralls.io/github/EdgarAllanzp/jssak?branch=master'><img src='https://coveralls.io/repos/github/EdgarAllanzp/jssak/badge.svg?branch=master&kill_cache=1' alt='Coverage Status' /></a>
 </p>
 
+> _Note: This library is an ongoing **work in progress**._
+
+## Features
+
+- Zero dependency.
+- Fully functional.
+- Well-tested with 100% coverage.
+- Strong focus on readable code.
+- Full **ES2015 module support** so that your application bundle only need grow in size according to what you actually use.
+
 ## Documentation
 
-For Docs, see: https://edgarallanzp.github.io/jssak/
+For online document, see: https://edgarallanzp.github.io/jssak/
+
+For local document:
+
+```sh
+$ yarn && yarn docs:dev
+```
 
 ## Requirement
 
@@ -17,11 +32,16 @@ Requires Node.js >= 8
 
 ## Running tests
 
-Install dev dependencies:
-
 ```sh
 $ yarn && yarn test
 ```
+
+## Todo
+
+- [ ] Collect and rewrite utils from somewhere like [**Lodash**](https://github.com/lodash/lodash),  [**underscore.js**](https://github.com/jashkenas/underscore). Yep, **do repeact yourself**.
+- [ ] Import on demand.
+- [ ] Optimize performance.
+- [ ] Benchmark.
 
 ## Contributing
 
