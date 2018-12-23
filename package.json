@@ -1,7 +1,7 @@
 {
   "name": "jssak",
   "version": "1.0.0",
-  "description": "A modern JavaScript utility library aiming to collect popular helpers and learn functional programming.",
+  "description": "Slight and elegant functional utils for modern JavaScript.",
   "main": "dist/jssak.cjs.js",
   "module": "dist/jssak.esm.js",
   "browser": "dist/jssak.umd.js",
@@ -35,10 +35,20 @@
   "keywords": [
     "utils",
     "helpers",
-    "functional programming"
+    "server",
+    "client",
+    "browser",
+    "functional"
   ],
-  "author": "Peizhao (Edgar) Li",
-  "license": "ISC",
+  "author": "Edgar Li",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EdgarAllanzp/jssak.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",

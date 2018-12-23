@@ -1,7 +1,7 @@
 module.exports = {
   base: '/jssak/',
   title: 'JavaScript Swiss Army Knife',
-  description: 'A modern JavaScript utility library aiming to collect popular helpers and learn functional programming.',
+  description: 'Slight and elegant functional utils for modern JavaScript.',
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }]
   ],
@@ -12,8 +12,7 @@ module.exports = {
     ],
     sidebar: {
       '/document/': [
-        '',
-        // 'array',
+        ''
       ]
     }
   }

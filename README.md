@@ -1,6 +1,6 @@
 <p align="center"><img src="./assets/jssak-logo.png" alt="jssak" width="100" /></p> 
 <h2 align="center">JavaScript Swiss Army Knife</h2>
-<p align="center">Slight and elegant functional utils for modern JavaScript.</p>
+<p align="center"><strong>Slight</strong> and <strong>elegant</strong> functional utils for modern JavaScript.</p>
 <p align="center">
   <a href="https://travis-ci.org/EdgarAllanzp/jssak"><img src="https://travis-ci.org/EdgarAllanzp/jssak.svg?branch=master" /></a>
   <a href='https://coveralls.io/github/EdgarAllanzp/jssak?branch=master'><img src='https://coveralls.io/repos/github/EdgarAllanzp/jssak/badge.svg?branch=master&kill_cache=1' alt='Coverage Status' /></a>
@@ -12,7 +12,7 @@
 
 - Zero dependency.
 - Fully functional.
-- Well-tested with 100% coverage.
+- Well-tested with **100% coverage**.
 - Strong focus on readable code.
 - Full **ES2015 module support** so that your application bundle only need grow in size according to what you actually use.
 
@@ -40,6 +40,7 @@ $ yarn && yarn test
 
 - [ ] Collect and rewrite utils from somewhere like [**Lodash**](https://github.com/lodash/lodash),  [**underscore.js**](https://github.com/jashkenas/underscore). Yep, **do repeact yourself**.
 - [ ] Import on demand.
+- [ ] Import before bundle.
 - [ ] Optimize performance.
 - [ ] Benchmark.
 
