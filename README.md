@@ -38,6 +38,7 @@ $ yarn && yarn test
 
 ## Todo
 
+- [ ] Auto generate document.
 - [ ] Collect and rewrite utils from somewhere like [**Lodash**](https://github.com/lodash/lodash),  [**underscore.js**](https://github.com/jashkenas/underscore). Yep, **do repeact yourself**.
 - [ ] Import on demand.
 - [ ] Import before bundle.
