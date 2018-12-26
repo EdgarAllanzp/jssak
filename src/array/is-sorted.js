@@ -1,12 +1,9 @@
 /**
- * @description Check if an array is sorted.
+ * Check if an array is sorted.
  * 
- * @param {Array} array: The array to check.
- * @param {Function(optional)} comparator: Specifies a function that defines the sort order.
- * 
+ * @param {Array} `array` The array to check.
+ * @param {Function} `[comparator]` Optionally. Specifies a function that defines the sort order.
  * @returns {Boolean} Returns `true` if `array` is sorted, else `false`. 
- * 
- * @example
  * 
  * ``` js
  * isSorted([1, 2, 3, 4, 5]);
@@ -22,7 +19,7 @@
 
 const defaultComparator = (a, b) => a - b;
 
-export default function (array, comparator = defaultComparator) {
+function isSorted(array, comparator = defaultComparator) {
   if (!Array.isArray(array)) {
     throw new TypeError('Expected Array');
   }
@@ -34,3 +31,5 @@ export default function (array, comparator = defaultComparator) {
   }
   return true;
 }
+
+export default isSorted;

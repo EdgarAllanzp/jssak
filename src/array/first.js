@@ -1,12 +1,10 @@
 /**
- * @description Get the first element or first n elements of an array.
+ * Get the first element or first n elements of an array.
  * 
- * @param {Array} array: The array to query. 
- * @param {*} num: The first elements count.
+ * @param {Array} `array` The array to query. 
+ * @param {Number} `num` The first elements count.
  * 
  * @returns {*|Array} Returns the first element or first n elements of array.
- * 
- * @example
  * 
  * ``` js
  * first(['a', 'b', 'c', 'd', 'e', 'f']); 
@@ -20,7 +18,7 @@
  * ```
  */
 
-export default function (array, num = 1) {
+function first(array, num = 1) {
   if (!Array.isArray(array)) {
     throw new TypeError('Expected array.');
   }
@@ -31,5 +29,7 @@ export default function (array, num = 1) {
   if (num === 1) {
     return array[0];
   }
-  return array.slice(0, num);
+  return array.slice(0, num); 
 }
+
+export default first;
