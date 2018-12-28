@@ -1,5 +1,7 @@
 import capitalize from './capitalize';
+import camelCase from './camelCase';
 
 export default {
-  capitalize
+  capitalize,
+  camelCase
 };

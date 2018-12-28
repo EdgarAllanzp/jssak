@@ -4,7 +4,7 @@
  * @syntax last(array, [num])
  * @param {Array} `array` The array to query. 
  * @param {Number} `num` The last elements count.
- * @returns {*|Array} Returns the last element or last n elements of array.
+ * @returns {Any} Returns the last element or last n elements of array.
  * 
  * ``` js
  * last(['a', 'b', 'c', 'd', 'e', 'f']); 

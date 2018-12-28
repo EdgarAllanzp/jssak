@@ -8,6 +8,35 @@ sidebar: auto
 
 ## Array
 
+### first
+
+```first(array, [num])```
+
+Get the first element or first n elements of an array.
+
+#### Arguments
+
+1. `array` *(Array)*: The array to query.
+2. `num` *(Number)*: The first elements count.
+
+#### Returns
+
+*(Any)*: Returns the first element or first n elements of array.
+
+#### Example
+
+``` js
+first(['a', 'b', 'c', 'd', 'e', 'f']); 
+// => 'a'
+
+first(['a', 'b', 'c', 'd', 'e', 'f'], 1);
+// => 'a'
+
+first(['a', 'b', 'c', 'd', 'e', 'f'], 3);
+// => ['a', 'b', 'c']
+```
+    
+
 ### isSorted
 
 ```isSorted(array, [comparator])```
@@ -17,7 +46,7 @@ Check if an array is sorted.
 #### Arguments
 
 1. `array` *(Array)*: The array to check.
-2. `comparator` *(Function)*: Specifies a function that defines the sort order.
+2. `[comparator]` *(Function)*: Optionally. Specifies a function that defines the sort order.
 
 #### Returns
 
@@ -35,34 +64,7 @@ isSorted([1, 3, 5, 2, 4]);
 isSorted([5, 4, 3, 2, 1], (a, b) => b - a);
 // => true
 ```
-
-### first 
-
-```first(array, [num])```
-
-Get the first element or first n elements of an array.
-
-#### Arguments
-
-1. `array` *(Array)*: The array to query.
-2. `num` *(Number)*: The first elements count.
-
-#### Returns
-
-*(\*|Array)*: Returns the first element or first n elements of `array`.
-
-#### Example
-
-``` js
-first(['a', 'b', 'c', 'd', 'e', 'f']);
-//=> 'a'
-
-first(['a', 'b', 'c', 'd', 'e', 'f'], 1);
-//=> 'a'
-
-first(['a', 'b', 'c', 'd', 'e', 'f'], 3);
-//=> ['a', 'b', 'c']
-```
+    
 
 ### last
 
@@ -77,17 +79,27 @@ Get the last element or last n elements of an array.
 
 #### Returns
 
-*(\*|Array)*: Returns the last element or last n elements of `array`.
+*(Any)*: Returns the last element or last n elements of array.
 
 #### Example
 
 ``` js
-last(['a', 'b', 'c', 'd', 'e', 'f']);
-//=> 'f'
+last(['a', 'b', 'c', 'd', 'e', 'f']); 
+// => 'f'
 
 last(['a', 'b', 'c', 'd', 'e', 'f'], 1);
-//=> 'f'
+// => 'f'
 
 last(['a', 'b', 'c', 'd', 'e', 'f'], 3);
-//=> ['d', 'e', 'f']
+// => ['d', 'e', 'f']
 ```
+    
+## Function
+
+## String
+
+### camelcase
+      
+
+### capitalize
+      

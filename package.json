@@ -6,6 +6,7 @@
   "module": "dist/jssak.esm.js",
   "browser": "dist/jssak.umd.js",
   "scripts": {
+    "docs:gen": "node docs/generator.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "release": "yarn docs:build && gh-pages -d docs/.vuepress/dist/",

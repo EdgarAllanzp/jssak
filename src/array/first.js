@@ -4,7 +4,7 @@
  * @syntax first(array, [num])
  * @param {Array} `array` The array to query. 
  * @param {Number} `num` The first elements count.
- * @returns {*|Array} Returns the first element or first n elements of array.
+ * @returns {Any} Returns the first element or first n elements of array.
  * 
  * ``` js
  * first(['a', 'b', 'c', 'd', 'e', 'f']); 
