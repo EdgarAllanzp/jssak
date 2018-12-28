@@ -1,9 +1,9 @@
 /**
  * Get the first element or first n elements of an array.
  * 
+ * @syntax first(array, [num])
  * @param {Array} `array` The array to query. 
  * @param {Number} `num` The first elements count.
- * 
  * @returns {*|Array} Returns the first element or first n elements of array.
  * 
  * ``` js

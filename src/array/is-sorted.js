@@ -1,6 +1,7 @@
 /**
  * Check if an array is sorted.
  * 
+ * @syntax isSorted(array, [comparator])
  * @param {Array} `array` The array to check.
  * @param {Function} `[comparator]` Optionally. Specifies a function that defines the sort order.
  * @returns {Boolean} Returns `true` if `array` is sorted, else `false`. 
