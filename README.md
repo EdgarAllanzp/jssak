@@ -3,7 +3,7 @@
 <p align="center"><strong>Slight</strong> and <strong>elegant</strong> functional utils for modern JavaScript.</p>
 <p align="center">
   <a href="https://travis-ci.org/EdgarAllanzp/jssak"><img src="https://travis-ci.org/EdgarAllanzp/jssak.svg?branch=master" /></a>
-  <a href='https://coveralls.io/github/EdgarAllanzp/jssak?branch=master'><img src='https://coveralls.io/repos/github/EdgarAllanzp/jssak/badge.svg?branch=master&kill_cache=1' alt='Coverage Status' /></a>
+  <a href='https://coveralls.io/github/EdgarAllanzp/jssak?branch=master'><img src='https://coveralls.io/repos/github/EdgarAllanzp/jssak/badge.svg?branch=master&kill_cache=2' alt='Coverage Status' /></a>
 </p>
 
 > _Note: This library is an ongoing **work in progress**._
