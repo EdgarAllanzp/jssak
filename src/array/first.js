@@ -1,35 +1,24 @@
 /**
- * Get the first element or first n elements of an array.
+ * Get the first element.
  * 
- * @syntax first(array, [num])
+ * @syntax first(array)
  * @param {Array} `array` The array to query. 
- * @param {Number} `num` The first elements count.
- * @returns {Any} Returns the first element or first n elements of array.
+ * @returns {Any} Returns the first element.
  * 
  * ``` js
  * first(['a', 'b', 'c', 'd', 'e', 'f']); 
  * // => 'a'
- * 
- * first(['a', 'b', 'c', 'd', 'e', 'f'], 1);
- * // => 'a'
- * 
- * first(['a', 'b', 'c', 'd', 'e', 'f'], 3);
- * // => ['a', 'b', 'c']
  * ```
  */
 
-function first(array, num = 1) {
+function first(array) {
   if (!Array.isArray(array)) {
     throw new TypeError('Expected array.');
   }
   if (!array.length) {
     return undefined;
   }
-
-  if (num === 1) {
-    return array[0];
-  }
-  return array.slice(0, num); 
+  return array[0];
 }
 
 export default first;

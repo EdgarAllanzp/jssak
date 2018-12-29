@@ -1,24 +1,17 @@
 /**
- * Get the last element or last n elements of an array.
+ * Get the last element.
  * 
- * @syntax last(array, [num])
+ * @syntax last(array)
  * @param {Array} `array` The array to query. 
- * @param {Number} `num` The last elements count.
- * @returns {Any} Returns the last element or last n elements of array.
+ * @returns {Any} Returns the last element.
  * 
  * ``` js
  * last(['a', 'b', 'c', 'd', 'e', 'f']); 
  * // => 'f'
- * 
- * last(['a', 'b', 'c', 'd', 'e', 'f'], 1);
- * // => 'f'
- * 
- * last(['a', 'b', 'c', 'd', 'e', 'f'], 3);
- * // => ['d', 'e', 'f']
  * ```
  */
 
-function last(array, num = 1) {
+function last(array) {
   if (!Array.isArray(array)) {
     throw new TypeError('Expected array.');
   }
@@ -27,10 +20,7 @@ function last(array, num = 1) {
   if (!arrayLen) {
     return undefined;
   }
-  if (num === 1) {
-    return array[arrayLen - 1];
-  }
-  return array.slice(arrayLen - num); 
+  return array[arrayLen - 1];
 }
 
 export default last;

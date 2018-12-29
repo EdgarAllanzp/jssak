@@ -10,30 +10,23 @@ sidebar: auto
 
 ### first
 
-```first(array, [num])```
+```first(array)```
 
-Get the first element or first n elements of an array.
+Get the first element.
 
 #### Arguments
 
 1. `array` *(Array)*: The array to query.
-2. `num` *(Number)*: The first elements count.
 
 #### Returns
 
-*(Any)*: Returns the first element or first n elements of array.
+*(Any)*: Returns the first element.
 
 #### Example
 
 ``` js
 first(['a', 'b', 'c', 'd', 'e', 'f']); 
 // => 'a'
-
-first(['a', 'b', 'c', 'd', 'e', 'f'], 1);
-// => 'a'
-
-first(['a', 'b', 'c', 'd', 'e', 'f'], 3);
-// => ['a', 'b', 'c']
 ```
     
 
@@ -68,30 +61,23 @@ isSorted([5, 4, 3, 2, 1], (a, b) => b - a);
 
 ### last
 
-```last(array, [num])```
+```last(array)```
 
-Get the last element or last n elements of an array.
+Get the last element.
 
 #### Arguments
 
 1. `array` *(Array)*: The array to query.
-2. `num` *(Number)*: The last elements count.
 
 #### Returns
 
-*(Any)*: Returns the last element or last n elements of array.
+*(Any)*: Returns the last element.
 
 #### Example
 
 ``` js
 last(['a', 'b', 'c', 'd', 'e', 'f']); 
 // => 'f'
-
-last(['a', 'b', 'c', 'd', 'e', 'f'], 1);
-// => 'f'
-
-last(['a', 'b', 'c', 'd', 'e', 'f'], 3);
-// => ['d', 'e', 'f']
 ```
     
 ## Function

@@ -25,11 +25,7 @@ describe('Array#first', function() {
   });
 
   it('should get the first element of array', function() {
-    assert.equal(_.first([1, 2, 3, 4, 5], 1), 1);
-  });
-
-  it('should return the first n elements of the array', function() {
-    assert.deepEqual(_.first([1, 2, 3, 4, 5], 3), [1, 2, 3]);
+    assert.equal(_.first([1, 2, 3, 4, 5]), 1);
   });
 
   it('should return undefined while array is empty', function() {
@@ -43,11 +39,7 @@ describe('Array#last', function() {
   });
 
   it('should get the last element of array', function() {
-    assert.equal(_.last([1, 2, 3, 4, 5], 1), 5);
-  });
-
-  it('should return the last n elements of the array', function() {
-    assert.deepEqual(_.last([1, 2, 3, 4, 5], 3), [3, 4, 5]);
+    assert.equal(_.last([1, 2, 3, 4, 5]), 5);
   });
 
   it('should return undefined while array is empty', function() {
