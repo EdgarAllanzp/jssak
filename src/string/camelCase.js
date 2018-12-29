@@ -1,5 +1,18 @@
 import capitalize from './capitalize';
 
+/**
+ * Converts `string` to camcel case.
+ * 
+ * @syntax camelCase([string])
+ * @param {String} `[string]` The string to convert.
+ * @returns {String} Returns the camel cased string.
+ * 
+ * ``` js
+ * camelCase('foo bar');
+ * // => 'fooBar'
+ * ```
+ */
+
 function camelCase(string = '') {
   string = string.toLowerCase()
     .replace(/[^A-Za-z0-9]/g, ' ')

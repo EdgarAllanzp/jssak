@@ -3,7 +3,7 @@
  * 
  * @syntax isSorted(array, [comparator])
  * @param {Array} `array` The array to check.
- * @param {Function} `[comparator]` Optionally. Specifies a function that defines the sort order.
+ * @param {Function} `[comparator]` Specifies a function that defines the sort order.
  * @returns {Boolean} Returns `true` if `array` is sorted, else `false`. 
  * 
  * ``` js

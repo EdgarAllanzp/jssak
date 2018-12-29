@@ -60,6 +60,8 @@ let document = dirs.reduce((doc, cat) => {
     if (!comment) {
       return `
 ### ${method}
+
+> _TODO_
       `;
     }
 
