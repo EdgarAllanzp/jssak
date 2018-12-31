@@ -26,9 +26,19 @@ For local document:
 $ yarn && yarn docs:dev
 ```
 
-## Requirement
+## Installation
 
-Requires Node.js >= 8
+Using npm:
+
+```sh
+$ npm install --save jssak
+```
+
+In Node.js:
+
+``` js
+const _ = require('jssak');
+```
 
 ## Running tests
 

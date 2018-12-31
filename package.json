@@ -1,6 +1,6 @@
 {
   "name": "jssak",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Slight and elegant functional utils for modern JavaScript.",
   "main": "dist/jssak.cjs.js",
   "module": "dist/jssak.esm.js",
